@@ -57,6 +57,10 @@
 
   <repositories>
     <repository>
+      <id>ludia-client-snapshots</id>
+      <url>https://nexus.socialludia.com/content/repositories/ludia-client-snapshots</url>
+    </repository>
+    <repository>
       <id>rso</id>
       <url>http://repository.sonatype.org/content/groups/flexgroup/</url>
     </repository>
