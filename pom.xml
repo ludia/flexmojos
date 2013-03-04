@@ -84,6 +84,7 @@
     <sisu.version>2.1.1</sisu.version>
     <plexus.version>1.5.4</plexus.version>
     <apparat.version>1.0-RC9</apparat.version>
+    <flexmojos-plugin.version>5.1-beta-SNAPSHOT</flexmojos-plugin.version>
   </properties>
 
   <build>
@@ -92,7 +93,7 @@
 		<plugin>
           <groupId>net.flexmojos.oss</groupId>
           <artifactId>flexmojos-maven-plugin</artifactId>
-		  <version>5.1-beta-SNAPSHOT</version>
+		  <version>${flexmojos-plugin.version}</version>
 		</plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
