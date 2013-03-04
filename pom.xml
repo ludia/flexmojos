@@ -29,7 +29,7 @@
 
   <groupId>net.flexmojos.oss</groupId>
   <artifactId>flexmojos-parent</artifactId>
-  <version>5.1-beta-SNAPSHOT</version>
+  <version>5.1-beta</version>
   <packaging>pom</packaging>
 
   <name>Flexmojos Parent</name>
