@@ -46,13 +46,9 @@
 
   <distributionManagement>
     <repository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+      <id>ludia-client-releases</id>
+      <url>https://nexus.socialludia.com/content/repositories/thirdparty</url>
     </repository>
-    <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
   </distributionManagement>
 
   <repositories>
@@ -210,7 +206,7 @@
           <groupId>com.savage7.maven.plugins</groupId>
           <artifactId>maven-external-dependency-plugin</artifactId>
           <version>0.5-SONATYPE-r116</version>
-        </plugin>		
+        </plugin>
       </plugins>
     </pluginManagement>
 
@@ -258,8 +254,8 @@
         <artifactId>cobertura4it-maven-plugin</artifactId>
         <version>1.0</version>
         <executions>
-          <!-- <execution> <id>merge</id> <phase>verify</phase> <goals> <goal>merge</goal> </goals> <configuration> <searchPath>${basedir}</searchPath> </configuration> </execution> <execution> <id>report</id> <phase>verify</phase> <goals> <goal>report</goal> 
-            </goals> <configuration> <sourceSets> <sourceSet> <directory>${basedir}</directory> <includes> <include>**/src/main/java</include> <include>**/src/main/flex</include> </includes> <excludes> <exclude>**/src/main/java/*</exclude> <exclude>**/src/main/flex/*</exclude> 
+          <!-- <execution> <id>merge</id> <phase>verify</phase> <goals> <goal>merge</goal> </goals> <configuration> <searchPath>${basedir}</searchPath> </configuration> </execution> <execution> <id>report</id> <phase>verify</phase> <goals> <goal>report</goal>
+            </goals> <configuration> <sourceSets> <sourceSet> <directory>${basedir}</directory> <includes> <include>**/src/main/java</include> <include>**/src/main/flex</include> </includes> <excludes> <exclude>**/src/main/java/*</exclude> <exclude>**/src/main/flex/*</exclude>
             </excludes> </sourceSet> </sourceSets> </configuration> </execution> -->
           <execution>
             <goals>
