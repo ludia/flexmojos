@@ -25,10 +25,10 @@
 	Specifies parameters for identifying, installing, and launching AIR applications.
 
 	xmlns - The Adobe AIR namespace: http://ns.adobe.com/air/application/2.0
-			The last segment of the namespace specifies the version 
+			The last segment of the namespace specifies the version
 			of the AIR runtime required for this application to run.
-			
-	minimumPatchLevel - The minimum patch level of the AIR runtime required to run 
+
+	minimumPatchLevel - The minimum patch level of the AIR runtime required to run
 			the application. Optional.
 -->
 
@@ -39,7 +39,7 @@
 	<!-- Used as the filename for the application. Required. -->
 	<filename>${swf}</filename>
 
-	<!-- The name that is displayed in the AIR application installer. 
+	<!-- The name that is displayed in the AIR application installer.
 	     May have multiple values for each language. See samples or xsd schema file. Optional. -->
 	<name></name>
 
@@ -62,7 +62,7 @@
 		<!-- The main SWF or HTML file of the application. Required. -->
 		<!-- Note: In Flash Builder, the SWF reference is set automatically. -->
 		<content>${swf}</content>
-		
+
 		<!-- The title of the main window. Optional. -->
 		<!-- <title></title> -->
 
@@ -101,6 +101,9 @@
 
 		<!-- The window's initial maximum size, specified as a width/height pair in pixels, such as "1600 1200". Optional. -->
 		<!-- <maxSize></maxSize> -->
+
+        <renderMode>direct</renderMode>
+
 	</initialWindow>
 
     <!-- We recommend omitting the supportedProfiles element, -->
@@ -129,7 +132,7 @@
 	of the AIR file (true), or the default AIR application installer handles the update (false).
 	Optional. Default false. -->
 	<!-- <customUpdateUI></customUpdateUI> -->
-	
+
 	<!-- Whether the application can be launched when the user clicks a link in a web browser.
 	Optional. Default false. -->
 	<!-- <allowBrowserInvocation></allowBrowserInvocation> -->
@@ -145,13 +148,13 @@
 
 			<!-- The extension to register. Required. -->
 			<!-- <extension></extension> -->
-			
+
 			<!-- The description of the file type. Optional. -->
 			<!-- <description></description> -->
-			
+
 			<!-- The MIME content type. -->
 			<!-- <contentType></contentType> -->
-			
+
 			<!-- The icon to display for the file type. Optional. -->
 			<!-- <icon>
 				<image16x16></image16x16>
@@ -159,7 +162,7 @@
 				<image48x48></image48x48>
 				<image128x128></image128x128>
 			</icon> -->
-			
+
 		<!-- </fileType> -->
 	<!-- </fileTypes> -->
 
